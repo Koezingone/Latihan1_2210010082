@@ -12,7 +12,22 @@ public class Matematika {
     }
     
     //membuat method penjumlahan
-    double setPenjunmlahan(){
+    double setPenjumlahan(){
         return bil1 + bil2;
+    }
+    
+    //membuat method pengurangan
+    double setPengurangan(){
+        return bil1 - bil2;
+    }
+    
+    //membuat method perkalian
+    double setPerkalian(){
+        return bil1 * bil2;
+    }
+    
+    //membuat method pembagian
+    double setPembagian(){
+        return bil1 / bil2;
     }
 }
